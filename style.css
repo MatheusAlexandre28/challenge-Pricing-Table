@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #f9fbfc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  position: absolute;
+  background: #1d539e;
+  height: 50%;
+  width: 100%;
+  z-index: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #f9fbfc;
+  margin: 80px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #f9fbfc;
+  margin-top: -50px;
+}
+
+.subSubTitle {
+  color: #f9fbfc;
+}
+
+.container {
+  position: absolute;
+  z-index: 1;
+  
+  height: 70%;
+  width: 100%;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.box-free {
+  height: 400px;
+  width: 300px;
+  background: #f9fbfc;
+  border-radius: 1rem;
+  border: 1px solid #828799;
+  margin-top: 7px;
+}
+
+.box-basic {
+  height: 410px;
+  width: 300px;
+  background: #f9fbfc;
+  border-radius: 1rem;
+  border: 1px solid #828799;
+}
+
+.box-professional {
+  height: 400px;
+  width: 300px;
+  background: #f9fbfc;
+  border-radius: 1rem;
+  border: 1px solid #828799;
+  margin-top: 7px;
+}
+
