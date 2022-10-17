@@ -24,31 +24,37 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 110px;
+  
 }
 
 .title {
+  width: 90vw;
   color: #f9fbfc;
-  font-weight: 600;
-  font-size: .6rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
 }
 
 .subtitle {
-  margin-top: 5px;
-  font: optional;
-  color: #f9fbfc;
-  font-size: .3rem;
-}
-
-.subSubtitle {
+  width: 40vw;
   font-weight: 400;
+  margin-top: 20px;
   font: optional;
   color: #f9fbfc;
-  font-size: .3rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
 }
 
 
 .container {
+  padding-top: 30px;
   position: absolute;
   z-index: 1;
   
@@ -58,32 +64,90 @@ header {
 
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 16px;
+
+  flex-flow: wrap;
 }
 
 .box-free {
-  height: 50vh;
-  width: 25vw;
+  height: 52vh;
+  width: 310px;
   background: #f9fbfc;
-  border-radius: .2rem;
-  border: 1px solid #828799;
+  border-radius: 1rem;
+  border: .1px solid #e6e7e9;
   margin-top: 7px;
+  padding: 21px 25px 21px 25px;
 }
+
 
 .box-basic {
-  height: 55vh;
-  width: 25vw;
+  margin-top: 3px;
+  height: 54vh;
+  width: 310px;
   background: #f9fbfc;
-  border-radius: .2rem;
-  border: 1px solid #828799;
+  border-radius: 1rem;
+  border: .1px solid #e6e7e9;
 }
 
-.box-professional {
-  height: 50vh;
-  width: 25vw;
+.titleBox {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 2.2rem;
+}
+
+.mes {
+  font-weight: 200;
+  color: #aaafc2;
+}
+
+hr {
+  margin-top: 17px;
+  opacity: .2;
+}
+
+.description {
+  margin-top: 10px;
+  font-weight: 200;
+  color: #aaafc2;
+  font-size: .8rem;
+}
+
+.imgCheck {
+  margin-top: 15px;
+  display: flex;
+  font-weight: 600;
+  color: #9b9faf;
+  font-size: .8rem;
+  gap: 10px;
+}
+
+.btn {
+  margin-top: 100px;
   background: #f9fbfc;
-  border-radius: .2rem;
-  border: 1px solid #828799;
-  margin-top: 7px;
+  border: #1d539e 1px solid;
+  border-radius: .5rem;
+  color: #1d539e;
+  padding: 10px 100px 10px 90px;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: aqua;
+}
+
+.btn2 {
+  margin-top: 30px;
+  background: #f9fbfc;
+  border: #1d539e 1px solid;
+  border-radius: .5rem;
+  color: #1d539e;
+  padding: 10px 100px 10px 90px;
+  font-size: 1em;
+  font-weight: 700;
 }
 
