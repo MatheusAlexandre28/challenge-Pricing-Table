@@ -84,10 +84,11 @@ header {
   margin-top: 3px;
   height: 430px;
   width: 310px;
-  background: #f9fbfc;
   border-radius: .5rem;
   border: .1px solid #e6e7e9;
-  padding: 21px 25px 21px 25px;
+  padding: 18px 25px 21px 25px;
+
+  background-image: linear-gradient(to bottom, #ffcc29 0, #ffcc29 15%, #f9fbfc 5%);
 }
 
 .titleBox {
@@ -99,7 +100,7 @@ header {
 .titleBoxBasic {
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 28px;
   color: #1d539e;
 }
 
@@ -203,4 +204,13 @@ hr {
   width: 80px;
 }
 
+.loremBasic {
+  margin-top: 13px;
+  display: flex;
+  font-weight: 700;
+  font-size: .8rem;
+  gap: 10px;
+  opacity: .8;
 
+  color: #828799;
+}
